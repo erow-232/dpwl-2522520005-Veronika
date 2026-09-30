@@ -74,11 +74,11 @@ Selama implementasi dilakukan pemeriksaan terhadap struktur kode, routing, dan p
 ## 8. Bukti Tangkapan Layar
 Sisipkan gambar yang relevan dari folder dokumentasi/ dengan perintah:
 ### Gambar 1. Hasil Pengujian Halaman Utama 
-![Gambar 1 ](dokumentasi/gambar1.jpg) 
+![Gambar 1 ](dokumentasi/gambar1.png) 
 ### Gambar 2. Hasil Pengujian Custom Route 
-![Gambar 2 ](dokumentasi/gambar2.jpg)
+![Gambar 2 ](dokumentasi/gambar2.png)
 ### Gambar 3. Profil Mahasiswa
-![Gambar 3 ](dokumentasi/gambar3.jpg)
+![Gambar 3 ](dokumentasi/gambar3.png)
 ## 9. Kesimpulan P2
 -P2 telah dipahami dan diterapkan kerangka dasar MVC, terutama penggunaan front controller, routing, controller, method, parameter, dan view. Aplikasi sudah dapat menerima request dan menghasilkan response sesuai route yang ditentukan.
 
