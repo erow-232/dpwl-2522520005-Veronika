@@ -3,9 +3,18 @@ define('FCPATH', __DIR__ . DIRECTORY_SEPARATOR);
 define('APPPATH', FCPATH . 'application' . DIRECTORY_SEPARATOR);
 define('SYSPATH', FCPATH . 'system' . DIRECTORY_SEPARATOR);
 require_once APPPATH . 'config/config.php';
+require_once APPPATH . 'config/database.php';
 require_once APPPATH . 'helpers/url_helper.php';
-require_once SYSPATH . 'core/Controller.php';
+require_once SYSPATH . 'core/Controller.php';  
 require_once SYSPATH . 'core/Router.php';
+
+// Pengujian awal
+if ($db->query('SELECT 1')) {
+echo 'Koneksi basis data berhasil.';
+} else {
+echo 'Koneksi basis data gagal.';
+}
+
 $route = [];
 require APPPATH . 'config/routes.php';
 $uri = $_SERVER['PATH_INFO'] ?? '';
